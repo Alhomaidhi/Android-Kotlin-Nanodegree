@@ -7,8 +7,8 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.abdullahalhomaidhi.aboutme"
-        minSdk 21
+        applicationId "com.abdullahalhomaidhi.colormyviews"
+        minSdk 23
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -28,10 +28,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
-    }
-
-    buildFeatures {
-        dataBinding true
     }
 }
 
